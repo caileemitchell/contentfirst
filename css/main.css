@@ -1,0 +1,170 @@
+html {
+  font: 100%/1.15
+  }
+
+body {
+  font-family: Verdana,   sans-serif;
+  background-color: #ffe4e8 ;
+  line-height: .5;
+  margin: 0;
+  padding-left: .75em;
+  padding-right: .5em;
+  }
+
+header {
+  line-height: 1.2em;
+  color: #360;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: #360;
+}
+framework {
+  width: 90%;
+  max-width: 60em;
+  }
+
+#poems {
+  text-align: center;
+  line-height: 1em;
+
+ }
+
+.col {
+  columns: 2;
+  column-gap: 1.5em;
+  /* column-rule: 1px solid #360 */;
+}
+.tryme {
+  text-align: center;
+  font-size: 1em;
+  line-height: 1em;
+  padding-bottom: 1em;
+}
+
+.usage {
+  text-align: center;
+  line-height: 1.5em;
+  padding-bottom: 1em;
+}
+
+.resources {
+  text-align: center;
+}
+
+
+/*
+.fg-000 {
+  color: #360;
+  text-align: left;
+  padding-top: 1em;
+  padding-left: 2em;
+
+  }
+ */
+
+
+.bracket p {
+  font-size: 1.75em;
+  line-height: 1;
+  text-align: right;
+}
+/* headshot */
+.designer {
+  line-height: 1.5em;
+  }
+
+.about {
+  line-height: 1.5em;
+  }
+figure.leaves {
+  float: center;
+  width: 10em;
+  height: 10em;
+  border: .5em solid #360;
+  overflow: hidden;
+  }
+
+figure.headshot {
+  float: left;
+  width: 7em;
+  height: 7em;
+  border: .5em solid #360;
+  margin: .6em 1em 0em 0;
+  overflow: hidden;
+  }
+
+
+/* descendent selector */
+
+figure.headshot img {
+  max-width: 110%;
+  max-height: 110%;
+  }
+
+
+
+
+/* --- navigation --- */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-top: .5em;
+  text-align: center;
+}
+
+nav a {
+  color: #360;
+  text-decoration: none;
+  border-bottom: 1px solid #ffe4e8;
+}
+
+nav a:hover {
+  border-bottom-color: #360;
+}
+
+/* ---- breakpoints / layout changes/ for wider screens --- */
+
+@media (min-width: 48em) {
+
+  nav ul {
+  text-align: center;
+  }
+
+  nav li {
+  display: inline;
+  margin-left: .5em;
+  }
+
+  nav li:first-child {
+  margin-left: 0;
+  }
+
+
+
+}
+
+
+
+
+
